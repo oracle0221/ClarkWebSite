@@ -4,6 +4,10 @@ a{
   color:black;
 }
 
+body{
+  font-family: '微软雅黑';
+}
+
 .clear:after {
   visibility: hidden;
   display: block;
@@ -25,8 +29,6 @@ a{
   height:80px;
   line-height: 80px;
   background: white;
-  /* display:flex; */
-  /* box-shadow:  */
 }
 
 .shadow{
@@ -63,7 +65,7 @@ a{
   margin-right: 65px;
   cursor: pointer;
 }
-/* #0e73b8 */
+
 .header ul li.active{
   color: #0e73b8;
   border-bottom: #0e73b8 solid 3px;
@@ -75,19 +77,64 @@ a{
   position: relative;
 }
 
+/* 首页 */
+
 .index-page-div{
   background:black;
-  height: 100%;;
+  height: 100%;
+  position: relative;
 }
 
 .index-page{
-  /* display:flex;
-  flex-direction: column; */
-  position:absolute;
-  top:50%;
-  left: 50%;
-  transform:translate(-130%, -50%);
   color:white;
+}
+
+.future-img{
+  width:318px;
+  height: 65px;
+  background:url(./assets/index2.png) no-repeat;
+  background-size:318px;
+  
+}
+
+.company-box{
+  padding-top:20px;
+}
+
+.company-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-list > div{
+  width:100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.pdd{
+  background:url('./assets/pdd.png') no-repeat;
+  background-size:100px;
+}
+
+.coupang{
+  background:url('./assets/coupang.png') no-repeat;
+  background-size:100px;
+}
+
+.vip{
+  background:url('./assets/vip.png') no-repeat;
+  background-size:100px;
+}
+
+.weimob{
+  background:url('./assets/weimob.png') no-repeat;
+  background-size:100px;
+}
+
+.future-div{
+  width:320px;
+  float: left;
 }
 
 .index-page h1{
@@ -99,6 +146,10 @@ a{
   bottom:20px;
   right:30px;
   width: 300px;
+}
+
+.index-page dl{
+  float:right;
 }
 
 
@@ -158,24 +209,24 @@ a{
   max-width: 300px;
 }
 
-.about-ul li dd .img{
+ dd .img{
   display: block;
   width:80px;
   height: 80px;
   border-radius:200px;
 }
 
-.about-ul li dd .tmt-img{
+ dd .tmt-img{
   background: url(./assets/tmt.png) no-repeat;
   background-size:80px;
 }
 
-.about-ul li dd .ai-img{
+ dd .ai-img{
   background: url(./assets/ai.png) no-repeat;
   background-size:80px;
 }
 
-.about-ul li dd .finance-img{
+ dd .finance-img{
   background: url(./assets/finance.png) no-repeat;
   background-size:80px;
 }
