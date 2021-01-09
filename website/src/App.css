@@ -155,8 +155,13 @@ body{
 
 /* 关于我们 */
 .about-page{
-  height: 100%;
-  position: relative;
+  background:url(./assets/di_1.jpg) no-repeat;
+  background-size: cover;
+  height: calc( 100vh - 80px );
+}
+
+.about-div{
+  padding-top: 150px;
 }
 
 .about-ul{
@@ -335,5 +340,6 @@ body{
 
 .contact-page{
   background:url(./assets/di_1.jpg) no-repeat;
+  background-size: cover;
   height: calc( 100vh - 80px );
 }

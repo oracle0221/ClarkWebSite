@@ -46,7 +46,7 @@ function App() {
         <div className="header" >
           <div className="header-box" >
             <div className="common-width-1200 header-line" >
-              <a>
+              <a href="/site/#/" >
                 <img src={logo} />
               </a>
               <ul>
