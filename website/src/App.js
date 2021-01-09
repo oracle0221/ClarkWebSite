@@ -7,6 +7,8 @@ import logo from './assets/logo.png';
 // 页面
 import Index from './pages/index'
 import About from './pages/about'
+import Contact from './pages/contact'
+import Recruitment from './pages/recruitment'
 
 const menuArr = [
   {
@@ -19,11 +21,15 @@ const menuArr = [
   },
   {
     name:"联系我们",
-    path:"/aa",
+    path:"/contact",
   },
   {
     name:"工作机会",
     path:"/bb",
+  },
+  {
+    name:"招聘方案",
+    path:"/recruitment",
   },
 ];
 
@@ -64,6 +70,8 @@ function App() {
             <Route path="/" exact component={Index} />
             <Route path="/home" exact component={Index} />
             <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/recruitment" exact component={Recruitment} />
           </Switch>
         </div>
       </div>

@@ -98,6 +98,7 @@ a{
   position:absolute;
   bottom:20px;
   right:30px;
+  width: 300px;
 }
 
 
@@ -268,4 +269,20 @@ a{
   background-position:center;
   background-repeat:no-repeat;
   background-size: 60px;
+}
+
+
+/* 联系我们 */
+.contact-div{
+  width:1000px;
+  margin:auto;
+  padding-top: 350px;
+  height: calc( 100vh - 80px );
+  background:url(./assets/ditu.png) center no-repeat;
+  background-size: 1000px;
+}
+
+.contact-page{
+  background:url(./assets/di_1.jpg) no-repeat;
+  height: calc( 100vh - 80px );
 }
